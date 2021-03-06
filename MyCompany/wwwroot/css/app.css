@@ -1,0 +1,38 @@
+﻿.list-item {
+    color: lightgrey;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: background ease 200ms;
+    transition: color ease 200ms;
+}
+
+.list-item:hover {
+    color: white;
+    background-color: blue;
+}
+
+.list-item:active {
+    color: white;
+    background-color:mediumblue;
+}
+
+.a-list:hover {
+    color: white;
+}
+
+.table-content {
+    top: 60px;
+    position: fixed;
+    right: 0;
+}
+
+#section-1-Home {
+   
+}
+
+@media only screen and (max-width: 770px) {
+    .table-content {
+        position:static;
+    }
+}
